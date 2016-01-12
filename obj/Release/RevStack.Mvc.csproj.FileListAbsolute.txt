@@ -1,0 +1,13 @@
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\obj\Release\RevStack.Mvc.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\RevStack.Mvc.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\RevStack.Mvc.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\MiscUtil.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\Newtonsoft.Json.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\RevStack.Cryptography.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\MiscUtil.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\MiscUtil.xml
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\Newtonsoft.Json.xml
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\RevStack.Cryptography.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\bin\Release\RevStack.Cryptography.xml
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\obj\Release\RevStack.Mvc.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Mvc\obj\Release\RevStack.Mvc.pdb
