@@ -137,6 +137,11 @@ namespace RevStack.Mvc
             return Regex.Replace(source, "[a-z][A-Z]", m => m.Value[0] + " " + char.ToLower(m.Value[1]));
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
         public static string ToDefaultSelectValue(this string source)
         {
             if (source.ToLower() == "select")
@@ -144,6 +149,17 @@ namespace RevStack.Mvc
                 return null;
             }
             return source;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="src"></param>
+        /// <returns></returns>
+        public static string ToPossessiveCase(this string src)
+        {
+            if (src.LastChars(1).ToLower() == "s") return src + "'";
+            else return src + "'s";
         }
     }
 }
