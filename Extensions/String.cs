@@ -161,5 +161,27 @@ namespace RevStack.Mvc
             if (src.LastChars(1).ToLower() == "s") return src + "'";
             else return src + "'s";
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="src"></param>
+        /// <returns></returns>
+        public static string ToHtmlLink(this string src)
+        {
+            return "<a href =\"" + src +"\">" + src + "</a>";
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="src"></param>
+        /// <param name="label"></param>
+        /// <returns></returns>
+        public static string ToHtmlLink(this string src, string label)
+        {
+            return "<a href =\"" + src + "\">" + label + "</a>";
+        }
+
     }
 }
