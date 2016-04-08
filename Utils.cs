@@ -28,16 +28,18 @@ namespace RevStack.Mvc
         public static string GenerateRandomString(int length)
         {
             var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            var stringChars = new char[length];
-            //var random = new Random();
+            return generateRandom(chars, length);
+        }
 
-            for (int i = 0; i < stringChars.Length; i++)
-            {
-                stringChars[i] = chars[StaticRandom.Next(chars.Length)];
-            }
-
-            var finalString = new String(stringChars);
-            return finalString;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="length"></param>
+        /// <returns></returns>
+        public static string GenerateRandomNumberString(int length)
+        {
+            var chars = "0123456789";
+            return generateRandom(chars, length);
         }
 
         /// <summary>
@@ -107,7 +109,19 @@ namespace RevStack.Mvc
             return match.Groups[1].Value + domainName;
         }
 
-        
+        private static string generateRandom(string chars, int length)
+        {
+            var stringChars = new char[length];
+            //var random = new Random();
+
+            for (int i = 0; i < stringChars.Length; i++)
+            {
+                stringChars[i] = chars[StaticRandom.Next(chars.Length)];
+            }
+
+            var finalString = new String(stringChars);
+            return finalString;
+        }
 
     }
 }
