@@ -62,6 +62,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionResult\ContentErrorResult.cs" />
+    <Compile Include="ActionResult\ContentRedirectResult.cs" />
+    <Compile Include="ActionResult\ModelErrorResult.cs" />
     <Compile Include="Crypto\Crypto.cs" />
     <Compile Include="Extensions\Distinct.cs" />
     <Compile Include="Extensions\Expression.cs" />
