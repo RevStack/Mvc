@@ -71,8 +71,10 @@
     <Compile Include="Extensions\Mapping.cs" />
     <Compile Include="Extensions\Misc.cs" />
     <Compile Include="Extensions\Pagination.cs" />
+    <Compile Include="Extensions\RequestMessage.cs" />
     <Compile Include="Extensions\String.cs" />
     <Compile Include="Json\Json.cs" />
+    <Compile Include="Navigation\EntityNavigation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\DirectRouteProvider.cs" />
     <Compile Include="Serialization\FormatAttribute.cs" />

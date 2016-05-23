@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace RevStack.Mvc
 {
@@ -25,6 +21,22 @@ namespace RevStack.Mvc
         public static string FirstChars(this string source, int startLength)
         {
             return source.Substring(0, startLength);
+        }
+
+        public static string TrimFirstChar(this string src)
+        {
+            return src.Substring(1);
+        }
+
+        public static string TrimLastChar(this string src)
+        {
+            if (string.IsNullOrEmpty(src))
+            {
+                return src;
+            }
+            else {
+                return src.TrimEnd(src[src.Length - 1]);
+            }
         }
 
         public static bool InString(this string source, string value)
@@ -181,6 +193,76 @@ namespace RevStack.Mvc
         public static string ToHtmlLink(this string src, string label)
         {
             return "<a href =\"" + src + "\">" + label + "</a>";
+        }
+
+        public static decimal ToRatioValue(this decimal src)
+        {
+            if (src > 1)
+            {
+                src = src / 100;
+            }
+            return src;
+        }
+
+        public static decimal ToPercentageValue(this decimal src)
+        {
+            if (src < 1)
+            {
+                src = src * 100;
+            }
+            return src;
+        }
+
+        public static string ToHtmlLineBreak(this string src)
+        {
+            src = src.Replace(Environment.NewLine, "<br>");
+            return src;
+        }
+
+        public static string ToMonthName(this int src)
+        {
+            string month = "";
+            switch (src)
+            {
+                case 1:
+                    month = "Jan";
+                    break;
+                case 2:
+                    month = "Feb";
+                    break;
+                case 3:
+                    month = "March";
+                    break;
+                case 4:
+                    month = "April";
+                    break;
+                case 5:
+                    month = "May";
+                    break;
+                case 6:
+                    month = "June";
+                    break;
+                case 7:
+                    month = "July";
+                    break;
+                case 8:
+                    month = "Aug";
+                    break;
+                case 9:
+                    month = "Sep";
+                    break;
+                case 10:
+                    month = "Oct";
+                    break;
+                case 11:
+                    month = "Nov";
+                    break;
+                case 12:
+                    month = "Dec";
+                    break;
+            }
+
+            return month;
         }
 
     }
