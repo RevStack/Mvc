@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RevStack.Mvc</id>
+    <version>1.0.1</version>
+    <title>RevStack.Mvc</title>
+    <authors>Scott Francis, David Sheets</authors>
+    <owners>D. Sheets, S. Francis</owners>
+    <licenseUrl>https://github.com/RevStack/Mvc/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RevStack/Mvc.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Asp.net mvc utility class library.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2016 Managed Information Solutions, LLC (MIS)</copyright>
+    <tags>RevStack Mvc</tags>
+  </metadata>
+</package>
