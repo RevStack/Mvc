@@ -23,6 +23,16 @@ namespace RevStack.Mvc
             }
         }
 
+        public string CanonicalUrl
+        {
+            get
+            {
+                string url = Host;
+                url += Path;
+                return url;
+            }
+        }
+
         public string Path
         {
             get

@@ -27,3 +27,16 @@
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Web.Http.dll
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Net.Http.Formatting.xml
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Web.Http.xml
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\RevStack.Mvc.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\RevStack.Mvc.pdb
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\Newtonsoft.Json.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\RevStack.Cryptography.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Net.Http.Formatting.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Web.Http.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\Newtonsoft.Json.xml
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\RevStack.Cryptography.xml
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Net.Http.Formatting.xml
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\bin\Release\System.Web.Http.xml
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\obj\Release\RevStack.Mvc.csprojResolveAssemblyReference.cache
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\obj\Release\RevStack.Mvc.dll
+Z:\Users\admin\Documents\Development\mono\RevStack\updated\RevStack.Mvc\obj\Release\RevStack.Mvc.pdb
