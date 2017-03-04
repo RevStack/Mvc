@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MiscUtil;
+using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
@@ -263,6 +264,38 @@ namespace RevStack.Mvc
             }
 
             return month;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="msg"></param>
+        /// <returns></returns>
+        public static string StripNewLineChars(string msg)
+        {
+            msg = msg.Replace('\r', ' ');
+            msg = msg.Replace('\n', ' ');
+            return msg;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="length"></param>
+        /// <returns></returns>
+        public static string GenerateRandomString(int length)
+        {
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var stringChars = new char[length];
+            //var random = new Random();
+
+            for (int i = 0; i < stringChars.Length; i++)
+            {
+                stringChars[i] = chars[StaticRandom.Next(chars.Length)];
+            }
+
+            var finalString = new String(stringChars);
+            return finalString;
         }
 
     }
